@@ -1,1 +1,3 @@
-# component-life-cycle
+# Props, State, and Component Life Cycle
+
+In React, a component allows the user to split the UI into separate pieces, which can be reused. Components are controlled by two different data types: props and states. Props are set under a parent and allow components to be used multiple times. Props are used when creating a variety of static screens. States are used when data is going to change, and are typically initialized in a constructor. The component life cycle allows code to be overridden at certain times, such as “will” before an event occurs and “did” afterwards. Mounting takes place when a component is being created and inserted into the DOM. Updating is called when a component is being re-rendered, and can be caused by changes to states or props. Unmounting occurs when components are removed from the DOM.
